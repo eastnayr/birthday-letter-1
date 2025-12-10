@@ -12,7 +12,7 @@ function Home() {
         <div className="text">
           <Typewriter
             options={{
-              strings: ["HAPPY BIRTHDAY 🎂"],
+              strings: ["HAPPY BIRTHDAY ISTRI GOJO🎂"],
               autoStart: true,
               loop: true,
               delay: 100,

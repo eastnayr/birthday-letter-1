@@ -14,8 +14,9 @@ html{
   font-style: normal;
 
   color-scheme: light dark;
-  color: #BE5985;
-  background-color: #FFEDFA;
+  /* soft light purple background */
+  background: linear-gradient(135deg, #F6EEFF 0%, #EFE6FF 100%);
+  background-color: #EFE6FF;
 }
 
 .app {
@@ -39,19 +40,20 @@ html{
 .text {
   font-size: 3rem;
   font-weight: bold;
-  color: #be5985;
+  color: #ff6fb1; /* pink title color */
   margin-bottom: 20px;
 }
 
 .title{
   font-size: 1.5rem;
+  color: #ff6fb1; /* make Typewriter titles pink again */
 }
 
 .btn {
   margin: 20px;
   padding: 12px 24px;
   font-size: 1.2rem;
-  background-color: #be5985;
+  background: #5b2da5;
   color: white;
   border: none;
   border-radius: 8px;
@@ -62,7 +64,7 @@ html{
 }
 
 .btn:hover {
-  background-color: #9b456c;
+  background: #b06aec;
 }
 
 @keyframes floatAnimation {
@@ -101,13 +103,14 @@ html{
   overflow-wrap: break-word;
   padding: 50px;
   padding-right: 60px;
-  color: rgb(113, 98, 73);
+  color: rgb(0, 0, 0);
 }
 
 
 @media (max-width: 768px) {
   .text{
     font-size: 2rem;
+    color:#8643e4
   }
 
   .paper {
@@ -147,13 +150,13 @@ html{
 .btn-text {
   margin-top: 5px;
   font-size: 14px;
-  color: #333; 
+  color: #c786f5; 
 
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  color: #BE5985;
+  color: #da8dae;
 }
 
 .img-button:hover {
@@ -167,7 +170,7 @@ html{
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(159, 94, 237, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,7 +181,7 @@ html{
   background: white;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 10px #c069f333;
   text-align: center;
 }
 
@@ -191,7 +194,7 @@ html{
   position: absolute;
   top: 10px;
   right: 10px;
-  background: #be5985;
+  background: #ac47e3;
   color: white;
   border: none;
   border-radius: 50%;
@@ -202,7 +205,7 @@ html{
 }
 
 .close-btn:hover {
-  background: #9b456c;
+  background: #3c2776;
 }
 
 @media (max-width: 768px) {

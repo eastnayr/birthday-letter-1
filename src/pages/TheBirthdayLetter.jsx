@@ -17,50 +17,52 @@ function TheBirthdayLetter() {
         <div className="app">
             <div className="paper">
                 <div className="letter">
-                    <p>Hi, happy birthday!</p>
+                    <p>Yoo whatshapp!</p>
                     <p>
-                        u’re so amazing. u passed one more chapter in ur life. ik u can do it bcs i
-                        believe in you. see, you did it. i’m so proud of you. stay alive please, we need
-                        to catch up and celebrate our bday party in person. i miss you so much (hope you
-                        feel the same way). i’m still waiting your latest update, jut hit me through dm.
-                        u know exactly where to find me.
-                    </p>
+                        soo in the end of this day, in the end of ur 18', one more time 
+                        you stay alive. it's not an accident, it's a bless.
+                        lot thing we all faces. ppl have their own struggle. obviously.
+                        maybe you're not doing it well but as long s u try that's enough.
+                        don't be too hard on urself, ok? there's lot of ppl who loves you.
+                        me. as example, ur friends,ur parents, ur fictional char wkwk , n don't
+                        forget about our God.
+                 </p>
                     <p>
-                        once more, enjoy ur new journey. hope Allah bless you and let happiness comes to
-                        you in every single seconds.
+                        once more, enjoy ur new journey. hope this live always bless you.
+                        HAPPY BIRTHDAYY!
                     </p>
                     <p style={{ textAlign: "right" }}>with love,</p>
-                    <p style={{ textAlign: "right" }}>sky</p>
+                    <p style={{ textAlign: "right" }}>Taraawr</p>
                 </div>
             </div>
 
             <div className="title">
-                <p>needs more?</p>
+                <p>moore?</p>
             </div>
             <div className="img-btn">
-                <button className="img-button" onClick={() => openPopup("img/thanks-letter.png")}>
+                <button className="img-button" onClick={() => openPopup("img/1.png")}>
                     <img src="img/letter2.png" alt="letter" className="img-small"/>
                     <span className="btn-text">thanks</span>
                 </button>
-                <button className="img-button" onClick={() => openPopup("img/sorry-letter.png")}>
+                <button className="img-button" onClick={() => openPopup("img/3.png")}>
                     <img src="img/letter2.png" alt="letter" className="img-small"/>
                     <span className="btn-text">sorry</span>
                 </button>
             </div>
 
             <div className="img-btn">
-                <button className="img-button" onClick={() => openPopup("img/happy-letter.png")}>
+                <button className="img-button" onClick={() => openPopup("img/2.png")}>
                     <img src="img/letter2.png" alt="letter" className="img-small"/>
-                    <span className="btn-text">happy</span>
+                    <span className="btn-text">cheer</span>
                 </button>
-                <button className="img-button" onClick={() => openPopup("img/sad-letter.png")}>
+                <button className="img-button" onClick={() => openPopup("img/4.png")}>
                     <img src="img/letter2.png" alt="letter" className="img-small"/>
                     <span className="btn-text">sad</span>
                 </button>
             </div>
 
             <button className="btn" onClick={() => navigate("/")}>
-                That's It!
+                That's it! ^^
             </button>
 
             {popupImage && (
@@ -74,5 +76,6 @@ function TheBirthdayLetter() {
         </div>
     );
 }
+
 
 export default TheBirthdayLetter;
